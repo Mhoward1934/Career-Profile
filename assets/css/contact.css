@@ -1,0 +1,15 @@
+body {
+    background-image: url(../images/light-grey-terrazzo.png);
+}
+
+.navbar {
+    color: navy;
+}
+
+.footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
