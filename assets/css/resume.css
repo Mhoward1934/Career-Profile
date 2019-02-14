@@ -1,0 +1,21 @@
+body {
+    background-image: url(../images/light-grey-terrazzo.png);
+}
+
+.history {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.navbar {
+    color: navy;
+}
+
+.footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
