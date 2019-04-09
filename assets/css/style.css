@@ -11,9 +11,14 @@ body {
     padding: 10px;
 }
 
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 #portfolio {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .carousel-inner p {
@@ -30,4 +35,18 @@ body {
     color: white;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
 }

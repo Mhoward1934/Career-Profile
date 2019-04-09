@@ -14,10 +14,11 @@
 </head>
 
 <body>
+  <!-- Navigation -->
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand"><strong>
-          <h1>Monroe Howard II</h1>
+          <h3>Monroe Howard II</h3>
         </strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,10 +30,10 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#main-bio">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="resume.html">Resume</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -42,19 +43,41 @@
     </nav>
     <br>
     <br>
-    <div id="main-bio">
-      <h3>About Me:</h3>
-      <p>Educated at Southern Methodist University (SMU) Continuing Education Program I am seeking to secure a position
-        in a Web Development capacity in the role of Front End Developer, Web Design, and Junior Web Developer are soon
-        example positions that will allow me to utilize my skills in HTML, CSS, and JavaScript. My future employer will
-        benefit from my ability to collaborate with others to create meaningful web applications. My passion for this
-        industry combined with my technical skills has prepared me for a future in Web Development.</p>
+    <!-- Header -->
+    <div class="header bg-light text-navy text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="assets/images/headshot.png" alt="Monroe">
+        <h1 class="text-uppercase mb-0">Monroe Howard II</h1>
+        <h2 class="font-weight-light mb-0">Front-End Web Development | Full-Stack Web Design | Technical Analyst</h2>
+      </div>
     </div>
     <br>
+    <br>
+    <!-- About Section -->
+    <div id="main-bio">
+      <h3>About Me:</h3>
+      <div class="row">
+        <div class="col-md-5 ml-auto">
+          <p>Educated at Southern Methodist University (SMU) Continuing Education Program I am seeking to secure a
+            position
+            in a Web Development capacity. The roles of Front End Developer, Full Stack Web Design, and Junior Web Developer are
+            some
+            example positions.
+          </p>
+        </div>
+        <div class="col-md-5 mr-auto">
+          <p>These roles will allow me to utilize my skills in HTML, CSS, Bootstrap, JavaScript, MongoDB and React amoung others. My passion for
+            this
+            industry, ability to collaborate with others to create meaningful web applications, combined with my
+            technical
+            skills has prepared me for a future in Web Development.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Portfolio of Technical Work -->
     <div id="portfolio">
-      <h3>Projects:</h3>
-      <p>Below are some of the projects I created and a team project I helped to create during my training. Please feel
-        free to test them out.</p>
+      <h3><strong>Portfolio:</strong></h3>
       <br>
       <div id="carouselProjectIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -113,7 +136,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>GeoCuisine</h5>
               <p>This app allows the user to search for receipes based on ingredients they already have.</p>
-              <a href="https://kat9513.github.io/fixingProject1/" class="btn btn-primary">GeoCuisine</a>
+              <a href="https://kat9513.github.io/GeoCuisine/" class="btn btn-primary">GeoCuisine</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -143,6 +166,7 @@
   </div>
 
   <br>
+  <!-- Footer Section -->
   <div class="footer">
     <p>
       <h6>Monroe Howard II | Copyright &copy; 2019</h6>
