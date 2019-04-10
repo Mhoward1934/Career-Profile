@@ -4,11 +4,14 @@ body {
 
 .navbar {
     color: navy;
+    position: fixed;
+    width: 100%;
 }
 
 #main-bio {
-    background-color: lightskyblue;
+    background-color: wheat;
     padding: 10px;
+    border-radius: 8px;
 }
 
 .header {
@@ -17,18 +20,18 @@ body {
 }
 
 #portfolio {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightgray;
+    border-radius: 8px;
 }
 
-.carousel-inner p {
-    color: yellow;
+#contact {
+    background-color: wheat;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-.carousel-inner h5 {
-    color: yellow;
-}
-
 .footer {
     text-align: center;
     background-color: navy;
