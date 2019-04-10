@@ -26,6 +26,11 @@ body {
     border-radius: 8px;
 }
 
+.card-deck {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #contact {
     background-color: wheat;
     border-radius: 8px;
