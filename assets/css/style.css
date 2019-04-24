@@ -4,7 +4,7 @@ body {
 
 .navbar {
     color: navy;
-    position: fixed;
+    position: sticky;
     width: 100%;
 }
 
@@ -17,6 +17,7 @@ body {
 .header {
   padding-top: 30px;
   padding-bottom: 30px;
+  border-radius: 8px;
 }
 
 #portfolio {
