@@ -10,7 +10,6 @@ body {
 #main-bio {
     background-color: wheat;
     padding: 10px;
-    border-radius: 8px;
 }
 
 li {
@@ -28,7 +27,6 @@ li {
     padding-top: 20px;
     padding-bottom: 30px;
     background: linear-gradient(to bottom, #616060, #111119);
-    border-radius: 8px;
 }
 
 .card-deck {
@@ -38,7 +36,6 @@ li {
 
 #contact {
     background-color: wheat;
-    border-radius: 8px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
