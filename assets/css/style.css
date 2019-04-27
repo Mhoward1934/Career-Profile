@@ -26,8 +26,8 @@ li {
 
 #portfolio {
     padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: lightgray;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom, #616060, #111119);
     border-radius: 8px;
 }
 
@@ -44,7 +44,7 @@ li {
 }
 .footer {
     text-align: center;
-    background-color: navy;
+    background-color: rgb(80, 79, 79);
     color: white;
     padding-top: 3px;
     padding-bottom: 3px;
