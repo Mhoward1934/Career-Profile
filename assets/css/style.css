@@ -1,5 +1,6 @@
 body {
-    background-image: url(../images/light-grey-terrazzo.png);
+  background-image: url("../images/bright-design-floor-235994.jpg");
+  /* background: linear-gradient(to bottom, rgb(120, 118, 233), rgb(58, 16, 16)); */
 }
 
 .navbar {
@@ -8,8 +9,10 @@ body {
 }
 
 #main-bio {
-    background-color: wheat;
+    background-color: whitesmoke;
     padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 li {
@@ -17,16 +20,16 @@ li {
 }
 
 .header {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #616060, #111119);
+  background: transparent;
 }
 
 #portfolio {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    background: linear-gradient(to bottom, #616060, #111119);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: lightgrey;
 }
 
 .card-deck {
@@ -35,9 +38,9 @@ li {
 }
 
 #contact {
-    background-color: wheat;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: whitesmoke;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer {
     text-align: center;
@@ -56,12 +59,12 @@ h3 {
 }
 
 img {
-  border-radius: 8px;
+  /* border-radius: 8px; */
   width: 200px;
   height: 200px;
 }
 
-.rain {
+/* .rain {
     position: absolute;
     left: 0;
     width: 100%;
@@ -215,4 +218,4 @@ img {
   
   body.single-toggle .drop:nth-child(10) {
     display: block;
-  }
+  } */
