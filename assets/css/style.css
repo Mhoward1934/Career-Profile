@@ -1,6 +1,6 @@
 body {
   background-image: url("../images/bright-design-floor-235994.jpg");
-  /* background: linear-gradient(to bottom, rgb(120, 118, 233), rgb(58, 16, 16)); */
+  background-attachment: fixed;
 }
 
 .navbar {
