@@ -37,6 +37,10 @@ li {
     margin-right: 10px;
 }
 
+.card:hover {
+  box-shadow: 0 4px 8px 0px rgba(17, 17, 32, 0.2), 0 6px 20px 0 rgba(17, 17, 32, 0.12);
+}
+
 #contact {
     background-image: url("../images/antique-black-classic-1416530.jpg");
     background-attachment: fixed;
