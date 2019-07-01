@@ -38,9 +38,12 @@ li {
 }
 
 #contact {
-    background-color: whitesmoke;
+    background-image: url("../images/antique-black-classic-1416530.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
+    color: white;
 }
 .footer {
     text-align: center;
