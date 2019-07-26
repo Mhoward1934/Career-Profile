@@ -33,6 +33,15 @@ li {
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 600px) {
+  .header {
+  background-image: url("../images/card-coffee-cup-1449082.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  }
+}
+
 .header img {
   border-radius: 50%;
 }
